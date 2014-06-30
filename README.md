@@ -64,7 +64,7 @@ var fs = require('fs'),
     sj.readDirectory();
 
 ````
-Now open the command prompt and open directory where run-me.js is located.
+Now open the command prompt and traverse to the directory where run-me.js is located.
 Run the following command
 ```````
 node run-me
