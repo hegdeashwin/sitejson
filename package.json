@@ -1,25 +1,32 @@
 {
-  "author": "Harshal Sawant",
-  "name": "sitejson",
-  "description": "Fetch data from json and puts in web page",
-  "version": "0.1.1",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/harshal-sawant/sitejson.git"
-  },
-  "main": "./lib/sitejson",
-  "keywords": [
-    "json",
-    "static",
-    "page"
-  ],
-  "bin": {
-    "index": "./bin/sitejson"
-  },
-  "dependencies": {
-		"underscore": ">=1.5.0"
-	},
-  "engines": {
-    "node": "*"
-  }
+    "name": "Sitejson",
+    "version": "0.1.1",
+    "edition": "Beta",
+    "author": "Harshal Sawant",
+    "description": "Fetch data from json and puts in web page", 
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/harshal-sawant/sitejson.git"
+    },
+    "main": "./lib/sitejson",
+    "keywords": [
+        "json",
+        "static",
+        "page"
+    ],
+    "bin": {
+        "index": "./bin/sitejson"
+    },
+    "dependencies": {
+        "underscore": ">=1.5.0"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.4",
+        "grunt-cli": "~0.1.13",
+        "grunt-contrib-jshint": "~0.10.0",
+        "grunt-jscs-checker": "~0.4.0"
+    },
+    "engines": {
+        "node": ">=0.10"
+    }
 }
