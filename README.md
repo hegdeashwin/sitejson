@@ -5,7 +5,7 @@ This is Node commandline application used to read data from json file and puts t
 How to install
 -----
 ````
-npm install sitejson
+npm install sitejson --save
 ````
 
 Folder Structure
