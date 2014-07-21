@@ -5,12 +5,12 @@ module.exports = function(grunt) {
         jshint: {
             all: ["lib/**/*.js", "bin/**/*.js"],
             options: {
-                ignores: ["src/libs/**/*.js"],
+                ignores: ["test/libs/**/*.js"],
                 jshintrc: 'config/.jshintrc'
             }
         },
         jscs: {
-            src: ["src/js/**/*.js", "bin/**/*.js"],
+            src: ["lib/**/*.js", "bin/**/*.js"],
             options: {
                 config: "config/.jscsrc"
             }
