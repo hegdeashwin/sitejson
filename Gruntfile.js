@@ -6,7 +6,7 @@ module.exports = function(grunt) {
             all: ["lib/**/*.js", "bin/**/*.js"],
             options: {
                 ignores: ["test/libs/**/*.js"],
-                jshintrc: 'config/.jshintrc'
+                jshintrc: "config/.jshintrc"
             }
         },
         jscs: {
@@ -31,5 +31,5 @@ module.exports = function(grunt) {
         "jscs"
     ]);
 
-    grunt.registerTask('dev', ['default']); // Alias for `default`.
+    grunt.registerTask("dev", ["default"]); // Alias for `default`.
 };
